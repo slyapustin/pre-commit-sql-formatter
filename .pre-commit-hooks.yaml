@@ -1,0 +1,10 @@
+-   id: sql-formatter
+    name: sql-formatter
+    description: ''
+    entry: sql-formatter
+    language: node
+    'types': [sql]
+    args: []
+    require_serial: false
+    additional_dependencies: ["sql-formatter@12.0.6"]
+    minimum_pre_commit_version: '0'
