@@ -1,5 +1,7 @@
 {
-    "name": "sql-formatter-pre-commit",
-    "description": "",
-    "version": "0.0.1"
+    "name": "pre-commit-sql-formatter",
+    "version": "0.0.1",
+    "dependencies": {
+        "sql-formatter": "12.0.6"
+    }
 }

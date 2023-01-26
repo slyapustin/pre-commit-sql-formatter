@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { format } from 'sql-formatter';
 import fs from "fs";
 
