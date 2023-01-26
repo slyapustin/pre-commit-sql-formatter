@@ -23,11 +23,12 @@ fs.readFile(filename, 'utf8', (err, data) => {
   });
 
   if (data != formatted) {
-    console.log(`${filename} was reformatted.`)
+    console.log(`Fixing ${filename}`)
     fs.writeFile(filename, formatted, err => {
       if (err) {
         console.error(err);
       }
     });
+    process.exit(1);
   }
 });
