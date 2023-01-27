@@ -12,7 +12,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
 -   repo: https://github.com/slyapustin/pre-commit-sql-formatter
-    rev: ''  # Use the sha / tag you want to point at
+    rev: 0.0.3  # Use the sha / tag you want to point at
     hooks:
     -   id: sql-formatter
         args: [--language=snowflake]
