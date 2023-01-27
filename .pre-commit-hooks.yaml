@@ -1,8 +1,8 @@
 -   id: sql-formatter
     name: Format SQL files
-    description: 'Reformat SQL files with sql-formatter'
-    entry: pre-commit-sql-formatter
+    description: Reformat SQL files with sql-formatter
+    entry: sql-formatter
     language: node
     types: [sql]
-    additional_dependencies: ["sql-formatter@12.0.6"]
-    args: [--language=snowflake]
+    additional_dependencies: ["sql-formatter@12.1.0"]
+    args: [--fix]
